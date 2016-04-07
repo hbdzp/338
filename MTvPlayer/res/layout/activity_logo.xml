@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="450dp"
+    android:layout_height="200dp"
+    android:layout_marginLeft="10dip"
+    android:layout_marginTop="10dip"
+    android:background="#1225d6"
+    android:orientation="vertical" >
+        <TextView
+        android:id="@+id/textview_cha_logosetinfo"
+        android:layout_width="267dp"
+        android:layout_height="133dp"
+        android:gravity="center"
+        android:text="@string/str_logo_reset_info"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+        <LinearLayout
+        android:id="@+id/linearlayout_logo_set_info"
+        android:layout_width="fill_parent"
+        android:layout_height="33dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textview_logo_reset_yes"
+            android:layout_width="133dp"
+            android:layout_height="33dp"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/str_menu_reset_dialog_confirm"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textview_logo_reset_no"
+            android:layout_width="133dp"
+            android:layout_height="33dp"
+            android:layout_gravity="right"
+            android:background="@drawable/button_state"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/str_menu_reset_dialog_cancel"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+    </LinearLayout>
+    
+
+</LinearLayout>

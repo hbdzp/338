@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/pic_mode_sty_menu" >
+
+    <TextView
+        style="@style/main_title_style"
+        android:text="@string/str_pic_pcimagemode" >
+    </TextView>
+
+    <!-- For Clock -->
+
+    <LinearLayout
+        android:id="@+id/linearlayout_pic_clock"
+        style="@style/pic_mode_sty_seekbar_btn" >
+
+        <TextView
+            style="@style/pic_mode_sty_seekbar_name"
+            android:text="@string/str_pic_clock" />
+
+        <SeekBar style="@style/pic_mode_sty_bar" 
+            android:visibility="visible"/>
+        <TextView style="@style/pic_mode_sty_seekbar_indicator" />
+    </LinearLayout>
+
+    <!-- For Phase -->
+
+    <LinearLayout
+        android:id="@+id/linearlayout_pic_phase"
+        style="@style/pic_mode_sty_seekbar_btn" >
+
+        <TextView
+            style="@style/pic_mode_sty_seekbar_name"
+            android:text="@string/str_pic_phase" />
+
+        <SeekBar style="@style/pic_mode_sty_bar" />
+
+        <TextView style="@style/pic_mode_sty_seekbar_indicator" />
+    </LinearLayout>
+
+    <!-- For  Horizontal position -->
+
+    <LinearLayout
+        android:id="@+id/linearlayout_pic_horizontalpos"
+        style="@style/pic_mode_sty_seekbar_btn" >
+
+        <TextView
+            style="@style/pic_mode_sty_seekbar_name"
+            android:text="@string/str_pic_horizontal_pos" />
+
+        <SeekBar style="@style/pic_mode_sty_bar" />
+
+        <TextView style="@style/pic_mode_sty_seekbar_indicator" />
+    </LinearLayout>
+
+    <!-- For  Vertical position -->
+
+    <LinearLayout
+        android:id="@+id/linearlayout_pic_verticalpos"
+        style="@style/pic_mode_sty_seekbar_btn" >
+
+        <TextView
+            style="@style/pic_mode_sty_seekbar_name"
+            android:text="@string/str_pic_vertical_pos" />
+
+        <SeekBar style="@style/pic_mode_sty_bar" />
+
+        <TextView style="@style/pic_mode_sty_seekbar_indicator" />
+    </LinearLayout>
+
+    <!-- PC Image Mode Back -->
+
+    <LinearLayout
+        android:id="@+id/linearlayout_pic_pcimagemodeback"
+        style="@style/pic_mode_sty_seekbar_btn" >
+
+        <TextView
+            style="@style/pic_mode_sty_seekbar_name"
+            android:text="@string/str_pic_autotune" />
+    </LinearLayout>
+
+</LinearLayout>

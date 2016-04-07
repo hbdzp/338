@@ -1,0 +1,227 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hotelmenu_container"
+    android:layout_width="450dp"
+    android:layout_height="520dp"
+    android:layout_marginLeft="10dip"
+    android:layout_marginTop="10dip"
+    android:background="#1225d6"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="500dip"
+        android:layout_marginTop="10dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearlayout_hotel_menu"
+                style="@style/mode_sty_combo_btn" >
+
+                <TextView
+                    style="@style/mode_sty_combo_name"
+                    android:text="@string/str_hotel_menu" />
+
+                <ImageView style="@style/mode_sty_leftarrow" >
+                </ImageView>
+
+                <TextView style="@style/mode_sty_combo_indicator" />
+
+                <ImageView style="@style/mode_sty_rightarrow" >
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_ch_lock"
+                style="@style/mode_sty_combo_btn" >
+
+                <TextView
+                    style="@style/mode_sty_combo_name"
+                    android:text="@string/str_ch_lock" />
+
+                <ImageView style="@style/mode_sty_leftarrow" >
+                </ImageView>
+
+                <TextView style="@style/mode_sty_combo_indicator" />
+
+                <ImageView style="@style/mode_sty_rightarrow" >
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearlayout_max_vol"
+                style="@style/mode_sty_combo_btn" >
+
+                <TextView
+                    style="@style/mode_sty_combo_name"
+                    android:text="@string/str_max_vol" />
+
+                <ImageView style="@style/mode_sty_leftarrow" >
+                </ImageView>
+
+                <TextView style="@style/mode_sty_combo_indicator" />
+
+                <ImageView style="@style/mode_sty_rightarrow" >
+                </ImageView>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearlayout_auto_set"
+                style="@style/mode_sty_combo_btn" >
+
+                <TextView
+                    style="@style/mode_sty_combo_name"
+                    android:text="@string/str_auto_set" />
+
+                <ImageView style="@style/mode_sty_leftarrow" >
+                </ImageView>
+
+                <TextView style="@style/mode_sty_combo_indicator" />
+
+                <ImageView style="@style/mode_sty_rightarrow" >
+                </ImageView>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearlayout_picture_mode"
+                style="@style/mode_sty_combo_btn" >
+
+                <TextView
+                    style="@style/mode_sty_combo_name"
+                    android:text="@string/str_picture_mode" />
+
+                <ImageView style="@style/mode_sty_leftarrow" >
+                </ImageView>
+
+                <TextView style="@style/mode_sty_combo_indicator" />
+
+                <ImageView style="@style/mode_sty_rightarrow" >
+                </ImageView>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearlayout_power_vol"
+                style="@style/mode_sty_combo_btn" >
+
+                <TextView
+                    style="@style/mode_sty_combo_name"
+                    android:text="@string/str_power_vol" />
+
+                <ImageView style="@style/mode_sty_leftarrow" >
+                </ImageView>
+
+                <TextView style="@style/mode_sty_combo_indicator" />
+
+                <ImageView style="@style/mode_sty_rightarrow" >
+                </ImageView>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearlayout_power_source"
+                style="@style/mode_sty_combo_btn" >
+
+                <TextView
+                    style="@style/mode_sty_combo_name"
+                    android:text="@string/str_power_source" />
+
+                <ImageView style="@style/mode_sty_leftarrow" >
+                </ImageView>
+
+                <TextView style="@style/mode_sty_combo_indicator" />
+
+                <ImageView style="@style/mode_sty_rightarrow" >
+                </ImageView>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearlayout_power_ch_number"
+                style="@style/mode_sty_combo_btn" >
+
+                <TextView
+                    style="@style/mode_sty_combo_name"
+                    android:text="@string/str_power_ch_number" />
+
+                <ImageView style="@style/mode_sty_leftarrow" >
+                </ImageView>
+
+                <TextView style="@style/mode_sty_combo_indicator" />
+
+                <ImageView style="@style/mode_sty_rightarrow" >
+                </ImageView>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearlayout_lock_ch_number"
+                style="@style/mode_sty_combo_btn" >
+
+                <TextView
+                    style="@style/mode_sty_combo_name"
+                    android:text="@string/str_lock_ch_num" />
+
+                <ImageView style="@style/mode_sty_leftarrow" >
+                </ImageView>
+
+                <TextView style="@style/mode_sty_combo_indicator" />
+
+                <ImageView style="@style/mode_sty_rightarrow" >
+                </ImageView>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearlayout_lock_ch"
+                style="@style/mode_sty_combo_btn" >
+
+                <TextView
+                    style="@style/mode_sty_combo_name"
+                    android:text="@string/str_lock_ch" />
+
+                <ImageView style="@style/mode_sty_leftarrow" >
+                </ImageView>
+
+                <TextView style="@style/mode_sty_combo_indicator" />
+
+                <ImageView style="@style/mode_sty_rightarrow" >
+                </ImageView>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearlayout_key_lock"
+                style="@style/mode_sty_combo_btn" >
+
+                <TextView
+                    style="@style/mode_sty_combo_name"
+                    android:text="@string/str_key_lock" />
+
+                <ImageView style="@style/mode_sty_leftarrow" >
+                </ImageView>
+
+                <TextView style="@style/mode_sty_combo_indicator" />
+
+                <ImageView style="@style/mode_sty_rightarrow" >
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearlayout_logo_set"
+                style="@style/mode_sty_combo_btn" >
+
+                <TextView
+                    style="@style/mode_sty_combo_name"
+                    android:text="@string/str_logo_set" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearlayout_clone"
+                style="@style/mode_sty_combo_btn" >
+
+                <TextView
+                    style="@style/mode_sty_combo_name"
+                    android:text="@string/str_clone" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

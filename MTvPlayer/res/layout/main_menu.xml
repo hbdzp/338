@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainMenu"
+    android:layout_width="750dip"
+    android:layout_height="600dip"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <ViewFlipper
+        android:id="@+id/view_flipper_main_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:flipInterval="1000"
+        android:persistentDrawingCache="animation" >
+
+        <!--
+          <include layout="@layout/picture"></include>
+	      <include layout="@layout/sound"></include>
+	       <include layout="@layout/channel"></include>
+	       <include layout="@layout/setting"></include>
+	       <include layout="@layout/time"></include>
+	       <include layout="@layout/demo"></include>
+	       <include layout="@layout/menu_of_3d"></include>
+        -->
+    </ViewFlipper>
+
+</LinearLayout>

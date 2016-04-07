@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/program_edit_memu_style"
+    android:layout_gravity="center_horizontal"
+    >
+
+    <TextView
+        android:id="@+id/audio_language_title"
+        style="@style/program_edit_title_style"
+        android:text="@string/str_audio_language_title" />
+
+    <ListView
+        android:id="@+id/audio_language_list_view"
+        style="@style/program_edit_list_view_style" >
+    </ListView>
+    
+ <LinearLayout
+       style="@style/programme_epg_img_layout_style"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="26dip">
+           
+            <ImageView
+                android:id="@+id/programme_epg_img_record"
+                style="@style/programme_epg_img_style"
+                android:layout_width="30dip"
+            	android:layout_height="25dip"
+            	android:src="@drawable/back_icon" />
+
+            <TextView
+                android:id="@+id/programme_epg_text_record"
+                android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:textSize="22sp"
+                android:text="@string/str_menu_operating_exit" />
+        </LinearLayout>
+
+</LinearLayout>
